@@ -1,0 +1,107 @@
+body {
+    background-image: url('../images/wood_texture.png');
+    background-size: cover;
+}
+
+.start {
+    background-color: rgb(248, 216, 100); /* Set the background color to almond */
+    font-family: 'Times New Roman', Times, serif; /* Set the font to Times New Roman */
+    width: 300px; /* Set the width of the div */
+    height: 50px;
+    margin: 20% auto; /* Center the div horizontally */
+    text-align: center; /* Center the text inside the div */
+    align-items: center;
+    padding-top: 1%;
+}
+
+.start button {
+    background-color: #4CAF50; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    padding: 15px 32px; /* Add padding to the button */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Make the button display as an inline-block element */
+    font-size: 16px; /* Set the font size of the button */
+    margin: 4px 2px; /* Add margin to the button */
+    cursor: pointer; /* Add a pointer cursor to the button */
+    border-radius: 10px; /* Add rounded corners to the button */
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.cards-container {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+  }
+  
+button:hover {
+    background-color: #45a049;
+  }
+
+.card-top {
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for the bottom value */
+.card-bottom {
+    bottom: 10px;
+    left: 10px;
+    font-weight: bold;
+    margin-top: 140px;
+    margin-left: 100px;
+  }
+
+h3 {
+    color: whitesmoke;
+}
+
+/* Style for the back of the card */
+.card-back {
+    background-color: #ff0000; /* Red background color */
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, white 10px, white 20px); /* Red stripes pattern */
+    /* Additional styles for the back of the card */
+  }
+  
+h2 {
+    margin-bottom: 50px;
+    color: white;
+    display: felx;
+    justify-content: center;
+}
